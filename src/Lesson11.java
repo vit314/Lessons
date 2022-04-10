@@ -1,6 +1,40 @@
 public class Lesson11 {
     public static void main(String[] args) {
 
+        int num1 = 6;
+        int num2 = 4;
+        if(num1 > num2) {
+            System.out.println("Первое число больше второго");
+        }
+
+//
+//        int num1 = 6;
+//        int num2 = 4;
+//        if(num1>num2){
+//            System.out.println("Первое число больше второго");
+//        }
+//        else{
+//            System.out.println("Первое число меньше второго");
+//        }
+//
+//        int num1 = 6;
+//        int num2 = 8;
+//        if(num1>num2){
+//            System.out.println("Первое число больше второго");
+//        }
+//        else if(num1<num2){
+//            System.out.println("Первое число меньше второго");
+//        }
+//        else{
+//            System.out.println("Числа равны");
+//        }
+//
+//        int num1 = 8;
+//        int num2 = 6;
+//        if(num1 > num2 && num1>7){
+//            System.out.println("Первое число больше второго и больше 7");
+//        }
+
 //        int num = 8;
 //        switch(num){
 //
