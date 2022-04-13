@@ -61,6 +61,9 @@ public class Lesson11 {
         int z = x>=y ? (x+y) : (x-y);
         System.out.println(z);
 
+        char c = 'a';
+        System.out.println((int)c);
+
     }
 
 }
