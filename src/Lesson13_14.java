@@ -7,7 +7,7 @@ public class Lesson13_14 {
         for (int i = 0; i < 10; i++) {
             if (i == 5)
                 break;
-            System.out.print(i);
+            System.out.println(i);
         }
     }
 }
