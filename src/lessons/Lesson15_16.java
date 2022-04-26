@@ -1,3 +1,5 @@
+package lessons;
+
 public class Lesson15_16 {
     public static void main(String[] args) {
         int[][] nums = new int[][]

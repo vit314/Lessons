@@ -1,3 +1,5 @@
+package lessons;
+
 public class Lesson17_18 {
 
     public static void main(String[] args) {
