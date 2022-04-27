@@ -3,8 +3,9 @@ package lessons;
 public class Lesson19_20_Abstract {
     public static void main(String[] args) {
         AbstractPig myPig = new AbstractPig(); // Create a Pig object
-        myPig.animalSound();
         myPig.sleep();
+        myPig.animalSound();
+
     }
 }
 

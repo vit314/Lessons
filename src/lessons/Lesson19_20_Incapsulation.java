@@ -5,14 +5,14 @@ public class Lesson19_20_Incapsulation {
     // ================ ИНКАПСУЛЯЦИЯ ================
 
         public static void main(String[] args) {
-
+//
 //            Person myObj = new Person();
 //            myObj.name = "John";  // error
 //            System.out.println(myObj.name); // error
 
-//            Person myObj = new Person();
-//            myObj.setName("John"); // Set the value of the name variable to "John"
-//            System.out.println(myObj.getName());
+            Person myObj = new Person();
+            myObj.setName("John"); // Set the value of the name variable to "John"
+            System.out.println(myObj.getName());
         }
         }
 

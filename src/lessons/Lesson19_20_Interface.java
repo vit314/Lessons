@@ -9,7 +9,6 @@ public class Lesson19_20_Interface {
     }
 }
 
-
 // Interface
 interface InterfaceAnimal {
     public void animalSound(); // interface method (does not have a body)
@@ -22,6 +21,7 @@ class InterfacePig implements InterfaceAnimal {
         // The body of animalSound() is provided here
         System.out.println("The pig says: wee wee");
     }
+
     public void sleep() {
         // The body of sleep() is provided here
         System.out.println("Zzz");

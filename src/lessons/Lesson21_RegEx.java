@@ -9,28 +9,28 @@ public class Lesson21_RegEx {
         phoneMatch();
     }
 
-    static void patternFind() {
-        Pattern pattern = Pattern.compile("w3Schools", Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pattern.matcher("Visit W3Schools!");
-        boolean matchFound = matcher.find();
-        if (matchFound) {
-            System.out.println("Match found");
-        } else {
-            System.out.println("Match not found");
-        }
-    }
+//    static void patternFind() {
+//        Pattern pattern = Pattern.compile("w3Schools", Pattern.CASE_INSENSITIVE);
+//        Matcher matcher = pattern.matcher("Visit W3Schools!");
+//        boolean matchFound = matcher.find();
+//        if (matchFound) {
+//            System.out.println("Match found");
+//        } else {
+//            System.out.println("Match not found");
+//        }
+//    }
 
-    static void split() {
-        String text = "FIFA will never regret it";
-        String[] words = text.split("\\s*(\\s|,|!|\\.)\\s*");
-        for (String word : words) {
-            System.out.println(word);
-        }
-    }
-
+//    static void split() {
+//        String text = "FIFA will never regret it";
+//        String[] words = text.split("\\s*(\\s|,|!|\\.)\\s*");
+//        for (String word : words) {
+//            System.out.println(word);
+//        }
+//    }
+//
     static void phoneMatch() {
-        String input = "+12343454556";
-        boolean result = input.matches("(\\+*)\\d{11}");
+        String input = "+12343454959";
+        boolean result = input.matches("(\\+)\\d{11}");
         if (result) {
             System.out.println("It is a phone number");
         } else {
