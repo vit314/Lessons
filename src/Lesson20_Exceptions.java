@@ -23,8 +23,6 @@ public class Lesson20_Exceptions {
                         throw new Exception("Число должно быть меньше 45");
                     }
                 }
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }
