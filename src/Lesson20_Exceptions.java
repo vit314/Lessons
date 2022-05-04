@@ -1,5 +1,5 @@
 
-public class Lesson_Exceptions {
+public class Lesson20_Exceptions {
 
     public static void main(String[] args) {
         checkAge(19);
