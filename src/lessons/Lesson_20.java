@@ -1,3 +1,5 @@
+package lessons;
+
 class Lesson_20 {
 
     int years;
