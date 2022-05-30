@@ -2,21 +2,20 @@ package lessons;
 
 public class HW_Checking {
     public static void main(String[] args) {
-
-        int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
-
-        int max = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                if (array[i][j] > max) {
-                    max = array[i][j];
-                }
-            }
-        }
-        System.out.println(max);
-
+//        for(int i2 = 40; i2 <= 60;i2++)
+//            if (i2 % 4 == 0) ;
+//
+//        boolean i2 = false;
+//        System.out.println(i2);
+int a = 10, b = 4;
+double k = a / b;
+        System.out.println(k);
     }
-}
+        }
+
+
+
+
 
 
 

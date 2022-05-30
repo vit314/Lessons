@@ -8,6 +8,13 @@ public class CodeWars {
         countingSheep(7);
     }
 
+    //https://www.codewars.com/kata/53ee5429ba190077850011d4/train/java
+    public static int doubleInteger(int i) {
+        // Double the integer and return it!
+        i = i * 2;
+        return i;
+    }
+
     //https://www.codewars.com/kata/555086d53eac039a2a000083/train/java
     public static boolean isLove(final int flower1, final int flower2) {
 
