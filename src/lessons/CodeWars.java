@@ -5,7 +5,7 @@ public class CodeWars {
     public static void main(String[] args) {
 //        System.out.println(isLove(10, 10));
 //        System.out.println(numberToString(123));
-        countingSheep(7);
+        System.out.println(countingSheep(3));
     }
 
     //https://www.codewars.com/kata/53ee5429ba190077850011d4/train/java
